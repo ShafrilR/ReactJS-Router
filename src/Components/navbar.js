@@ -17,6 +17,9 @@ export class Navbar extends Component {
                         <li class="nav-item">
                             <Link to="/haribesar" className="nav-link text-white">Hari Besar</Link>
                         </li>
+                        <li class="nav-item">
+                            <Link to="/keranjang" className="nav-link text-white">Keranjang</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
