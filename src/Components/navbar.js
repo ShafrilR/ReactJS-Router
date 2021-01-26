@@ -20,6 +20,12 @@ export class Navbar extends Component {
                         <li class="nav-item">
                             <Link to="/keranjang" className="nav-link text-white">Keranjang</Link>
                         </li>
+                        <li class="nav-item">
+                            <Link to="/Gallery" className="nav-link text-white">Gallery</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/Cart" className="nav-link text-white">Cart</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
