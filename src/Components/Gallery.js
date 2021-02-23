@@ -229,7 +229,7 @@ class Gallery extends Component {
                 // jika user telah mengisikan namanya
 
                 // simpan nama user ke session storage
-                sessionStorage.setItem("user", prompt)
+                localStorage.setItem("user", prompt)
 
                 // simpan nama user ke state.user
                 this.setState({user: prompt})
@@ -238,7 +238,7 @@ class Gallery extends Component {
             // kondisi saat session storage "user" telah dibuat
 
             // akses nilai dari session storage "user"
-            let name = sessionStorage.getItem("user")
+            let name = localStorage.getItem("user")
             this.setState({user: name})
         }
     }

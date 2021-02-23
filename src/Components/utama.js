@@ -7,6 +7,7 @@ import HariBesar from './haribesar'
 import Keranjang from './keranjang'
 import Gallery from './Gallery'
 import Cart from './Cart'
+import Pegawai from './Pegawai'
 
 const utama = () => (
     <Switch>
@@ -16,6 +17,7 @@ const utama = () => (
         <Route path="/keranjang" component={Keranjang} />
         <Route path="/Gallery" component={Gallery} />
         <Route path="/Cart" component={Cart} />
+        <Route path="/pegawai" component={Pegawai} />
     </Switch>
 )
 export default utama;
